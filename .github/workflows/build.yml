@@ -30,6 +30,7 @@ jobs:
           haxelib --never install flixel 4.11.0
           haxelib run lime setup flixel
           haxelib install newgrounds 1.1.4
+          haxelib install polymod
           haxelib run lime setup
           haxelib install flixel-tools 1.5.1
           haxelib install flixel-ui 2.5.0
